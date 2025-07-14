@@ -64,26 +64,11 @@ Análisis de la relación entre contaminantes ambientales y distribución de egr
 - **`df_filtrado`**: Solo enfermedades relacionadas con contaminación ambiental  
 - **`df_final`**: Dataset completo con descripciones CIE-10 y zonas geográficas mapeadas
 
-### Optimizaciones Implementadas
-- **Carga eficiente**: Una sola operación de lectura para todos los años
-- **Gestión de memoria**: Uso de `.copy()` para evitar warnings de pandas
-- **Encoding robusto**: Manejo correcto de caracteres especiales
-- **Validaciones**: Verificaciones de integridad en cada paso
-
 ### Visualizaciones Incluidas
 - **Gráficos temporales**: Evolución año a año con múltiples series
 - **Gráficos comparativos**: Barras para rankings y distribuciones
 - **Panel de análisis**: Visualizaciones simultáneas 2x2 por zona
 - **Mapas conceptuales**: Distribución geográfica Norte-Centro-Sur
-
-## Ventajas de esta Estructura
-
-1. **Eficiencia**: Una sola carga de datos al inicio
-2. **Consistencia**: Todos los análisis usan el mismo dataset preparado
-3. **Escalabilidad**: Fácil agregar nuevos años o variables
-4. **Claridad**: Flujo lógico de procesamiento → análisis → visualización
-5. **Reutilización**: El dataset `df_final` sirve para múltiples análisis
-6. **Robustez**: Manejo de errores y validaciones en cada paso
 
 ## Próximos Pasos Sugeridos
 - Análisis estadístico inferencial (correlaciones, tests)
