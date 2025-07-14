@@ -1,3 +1,5 @@
+### Link para informe
+https://docs.google.com/document/d/1QxUgAamoS6McOO8df4giphGTtZTzCG6LmPzqlHSFtjs/edit?usp=sharing
 # Análisis de Datos de Egresos Hospitalarios (2018-2024)
 
 ## Objetivo del Proyecto
